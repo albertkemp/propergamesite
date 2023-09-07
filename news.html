@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shorcut icon" href="images/melbournegames.png">
+    <title>Games - Melbourne Games</title>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.featured-games ul,
+.latest-news ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featured-games li,
+.latest-news li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.featured-games h3,
+.latest-news h3 {
+  margin: 0;
+  font-size: 24px;
+}
+hr{border: 5px solid red;}
+    </style>
+    <title>Melbourne Games - Games</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Melbourne Games</h1>
+      <nav>
+        <ul>
+          <li><a href="gamewebsiteGPT.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <section class="latest-news">
+            <h2>Latest news:</h2>
+            <a href="https://albertkemp.github.io/quadselector/">
+                <img src="images/qselector.png" height="400px">
+                <h3>QuadSelector made!</h3>
+            <p>Quadrilateral Selector is finally out, an amazing game!</p>
+            </a>
+            <hr>
+            <a href="https://albertkemp.github.io/p5jsflightsimulator/">
+                <img src="images/p5jsflightsimulator.png" height="400px">
+                <h3>P5js flight simulator is made!</h3>
+                <p>An amazing flight simulator with the latest features!</p>
+            </a>
+        </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 Melbourne Games</p>
+    </footer>
+  </body>
+</html>
